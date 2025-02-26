@@ -1,8 +1,8 @@
 {
   "id": "bsf-ble",
   "displayName": "原生蓝牙BLE-UTS插件",
-  "version": "1.0.1",
-  "description": "bsf-ble",
+  "version": "1.0.2",
+  "description": "基于BLE蓝牙原生协议专为`uniapp`/`uniappx`的App项目定制的`UTS`插件，支持Android、IOS，可实现蓝牙搜索，蓝牙连接，消息订阅，数据发送，数据接收，数据解析等功能。",
   "keywords": [
     "ble",
     "bluetooth",
@@ -27,7 +27,7 @@
     "declaration": {
       "ads": "无",
       "data": "插件不采集任何数据",
-      "permissions": "<uses-feature\r\n android:name=\"android.hardware.bluetooth_le\"\r\n android:required=\"true\" />\r\n\r\n<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\r\n<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\r\n\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH\"\r\n android:maxSdkVersion=\"30\" />\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH_ADMIN\"\r\n android:maxSdkVersion=\"30\" />\r\n\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH_SCAN\"\r\n android:usesPermissionFlags=\"neverForLocation\"\r\n tools:targetApi=\"S\" />\r\n<uses-permission android:name=\"android.permission.BLUETOOTH_ADVERTISE\" />\r\n<uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\" />"
+      "permissions": "<uses-feature\n android:name=\"android.hardware.bluetooth_le\"\n android:required=\"true\" />\n\n<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\n<uses-permission\n android:name=\"android.permission.BLUETOOTH\"\n android:maxSdkVersion=\"30\" />\n<uses-permission\n android:name=\"android.permission.BLUETOOTH_ADMIN\"\n android:maxSdkVersion=\"30\" />\n\n<uses-permission\n android:name=\"android.permission.BLUETOOTH_SCAN\"\n android:usesPermissionFlags=\"neverForLocation\"\n tools:targetApi=\"S\" />\n<uses-permission android:name=\"android.permission.BLUETOOTH_ADVERTISE\" />\n<uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\" />"
     },
     "npmurl": ""
   },
