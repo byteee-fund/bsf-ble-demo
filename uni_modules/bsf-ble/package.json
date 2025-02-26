@@ -1,0 +1,84 @@
+{
+  "id": "bsf-ble",
+  "displayName": "原生蓝牙BLE-UTS插件",
+  "version": "1.0.1",
+  "description": "bsf-ble",
+  "keywords": [
+    "ble",
+    "bluetooth",
+    "蓝牙"
+],
+  "repository": "https://github.com/byteee-fund/bsf-ble-doc",
+"engines": {
+  },
+  "dcloudext": {
+    "type": "uts",
+    "sale": {
+      "regular": {
+        "price": "399.00"
+      },
+      "sourcecode": {
+        "price": "799.00"
+      }
+    },
+    "contact": {
+      "qq": "281674669"
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "<uses-feature\r\n android:name=\"android.hardware.bluetooth_le\"\r\n android:required=\"true\" />\r\n\r\n<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\r\n<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\r\n\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH\"\r\n android:maxSdkVersion=\"30\" />\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH_ADMIN\"\r\n android:maxSdkVersion=\"30\" />\r\n\r\n<uses-permission\r\n android:name=\"android.permission.BLUETOOTH_SCAN\"\r\n android:usesPermissionFlags=\"neverForLocation\"\r\n tools:targetApi=\"S\" />\r\n<uses-permission android:name=\"android.permission.BLUETOOTH_ADVERTISE\" />\r\n<uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\" />"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+            "app-android": "y",
+            "app-ios": "y",
+            "app-harmony": "n"
+        },
+        "H5-mobile": {
+          "Safari": "n",
+          "Android Browser": "n",
+          "微信浏览器(Android)": "n",
+          "QQ浏览器(Android)": "n"
+        },
+        "H5-pc": {
+          "Chrome": "n",
+          "IE": "n",
+          "Edge": "n",
+          "Firefox": "n",
+          "Safari": "n"
+        },
+        "小程序": {
+          "微信": "n",
+          "阿里": "n",
+          "百度": "n",
+          "字节跳动": "n",
+          "QQ": "n",
+          "钉钉": "n",
+          "快手": "n",
+          "飞书": "n",
+          "京东": "n"
+        },
+        "快应用": {
+          "华为": "n",
+          "联盟": "n"
+        }
+      }
+    }
+  }
+}
